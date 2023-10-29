@@ -1,0 +1,143 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+######### UNDER HEADER #########
+*/
+
+.under_header {
+    width: 100%;
+    height: 500px;
+    padding: 5% 10%;
+
+    background-image: url(../public/external/team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.background_opacity {
+    background-color: #003153;
+    opacity: 60%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.underheader_text {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FBEFE5;
+    padding: 0 0 0 110px;
+}
+.underheader_text h3 {
+    font-size: 60px;
+}
+.nav span {
+    opacity: 80%;
+}
+.nav a:hover {
+    color: #f7cdaa;
+}
+
+/*
+######### ATTORNEY #########
+*/
+
+.attorney {
+    width: 100%;
+    padding: 5% 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FBEFE5;
+}
+.attorney_info {
+    padding: 15px;
+    color: #003153;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.attorney_info p {
+    width: 100%;
+}
+.avatar {
+    width: 370px;
+    height: 450px;
+    margin-bottom: 15px;
+}
+.name {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.job {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.age {
+    margin-bottom: 10px;
+}
+.attorney_description {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    line-height: 150%;
+    font-size: 20px;
+    color: #003153;
+}
+.attorney_description p{
+    margin-bottom: 10px;
+}
+
+/*
+######### SOLVE YOUR PROBLEM NOW #########
+*/
+
+.contact_us {
+    width: 100%;
+    padding: 5% 10%;
+    background-color: #003153;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_us span {
+    font-size: 30px;
+    color: #C79E7B;
+}
+.contact_us a {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #003153;
+    padding: 20px;
+    background-color: #FBEFE5;
+    border-radius: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s;
+    border: 1px solid #FBEFE5;
+}
+.contact_us a:hover {
+    background-color: #003153;
+    color: #FBEFE5;
+}

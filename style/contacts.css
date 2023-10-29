@@ -1,0 +1,184 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+######### UNDER HEADER #########
+*/
+
+.under_header {
+    width: 100%;
+    height: 500px;
+    padding: 5% 10%;
+
+    background-image: url(../public/external/colleagues-working-together-call-center-office-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -120px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.background_opacity {
+    background-color: #003153;
+    opacity: 60%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.underheader_text {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FBEFE5;
+    padding: 0 0 0 110px;
+}
+.underheader_text h3 {
+    font-size: 60px;
+}
+.nav span {
+    opacity: 80%;
+}
+.nav a:hover {
+    color: #f7cdaa;
+}
+
+/*
+######### CONTACTS CARDS #########
+*/
+
+.contacts_block {
+    position: relative;
+    width: 100%;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #003153;
+    background-color: #FBEFE5;
+    border-top: 4px solid #CCAF96;
+}
+.contacts_block h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.contacts {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    transition: .3s;
+}
+.contact:hover {
+    background-color: #CCAF96;
+}
+.icon {
+    background-color: #CCAF96;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.contact_type {
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact_info {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*
+######### PROBLEM DESCRIPTION #########
+*/
+
+.problem_description {
+    width: 100%;
+    padding: 5% 10%;
+
+    position: relative;
+    background-color: #003153;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #FBEFE5;
+}
+.problem_description h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.problem_description_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.text_inputs {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.problem_description_form textarea {
+    width: 100%;
+    min-height: 150px;
+    margin-bottom: 20px;
+}
+.problem_description_input {
+    border-radius: 15px;
+    border: 2px solid #6b6b6b;
+    height: 50px;
+    padding: 10px;
+}
+.send_button {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #003153;
+    padding: 20px;
+    background-color: #FBEFE5;
+    border-radius: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s;
+    border: 1px solid #FBEFE5;
+}
+.send_button:hover {
+    background-color: #003153;
+    color: #FBEFE5;
+}
+
+/*
+######### MAP #########
+*/
+
+.map {
+    width: 100%;
+}
